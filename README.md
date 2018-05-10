@@ -4,8 +4,7 @@
 目标: 支持 [Carthage](https://github.com/Carthage/Carthage)
 
 改动: 
-     除GKNavigationBarViewControllerDemo*,因为其中的.xcodeproj会干扰 Carthage 寻找正确的.xcodeproj(Carthage还是有点傻)
-
+     删除 GKNavigationBarViewControllerDemo*,因为其中的.xcodeproj会干扰 Carthage 寻找正确的.xcodeproj(Carthage还是有点傻)
 	 添加 GKNavigationBarViewController/GKNavigationBarViewController.xcodeproj GKNavigationBarViewController/Info.plist
 
 ## Carthage
